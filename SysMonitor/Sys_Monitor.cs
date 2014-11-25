@@ -36,7 +36,9 @@ namespace SysMonitor
             Log.AddLog("timer_Elapsed(...) : Tick");
             dt = DateTime.Now;
                 bd.sendCommand("INSERT INTO app1 (`date`,`cpuuse`,`memoryuse`,`cputemp`) VALUES (" + dt.TimeOfDay.TotalMinutes.ToString().Replace(',', '.') + "," + Wmi.cpuuse().Replace(',', '.') + "," + Wmi.memoryuse().Replace(',', '.') + "," + Wmi.cputemp().Replace(',', '.') + ")");
-        }
-        #endregion
-    }
-}
+        }                      
+        #endregion             
+    }                          
+}                              
+                               
+                               

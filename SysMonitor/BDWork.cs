@@ -59,9 +59,14 @@ namespace SysMonitor
                 {
                     Log.AddLog("sendCommand() : " + e.Message);
                     connected = false;
+
                 }
             }
-            else { connect(); }
+            else
+            {
+                connect();
+                
+            }
         }
         
         private List<string> db_loadTableList()
