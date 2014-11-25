@@ -1,0 +1,10 @@
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe.config
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.pdb
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.csprojResolveAssemblyReference.cache
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.ProjectInstaller.resources
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.csproj.GenerateResource.Cache
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.exe
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.pdb
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\MySql.Data.dll
+c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.Sys_Monitor.resources

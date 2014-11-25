@@ -1,0 +1,65 @@
+﻿Выполняется установка сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Service1...
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется откат для сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Восстанавливается исходное состояние журнала событий для источника Service1.
+Выполняется установка сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Service1...
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется откат для сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Восстанавливается исходное состояние журнала событий для источника Service1.
+Выполняется установка сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Sys Monitor...
+Служба Sys Monitor успешно установлена.
+Создается исходный EventLog Sys Monitor в журнале Application...
+Выполняется фиксация сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Выполняется установка сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Sys Monitor...
+Создается исходный EventLog Sys Monitor в журнале Application...
+Выполняется откат для сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Восстанавливается исходное состояние журнала событий для источника Sys Monitor.
+Выполняется установка сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Sys Monitor...
+Создается исходный EventLog Sys Monitor в журнале Application...
+Выполняется откат для сборки 'C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Восстанавливается исходное состояние журнала событий для источника Sys Monitor.
