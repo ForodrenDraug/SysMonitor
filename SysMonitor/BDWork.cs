@@ -19,12 +19,13 @@ namespace SysMonitor
         MySqlConnection sql_connection;
         String BD;
         Timer timer;
-        Queue<string> queue;
+        Queue<string> queue=new Queue<string>();
 
         public BDWork(String BD)
         {
+            
             this.BD = BD;
-            this.timer = new System.Timers.Timer(10000D);
+            this.timer = new System.Timers.Timer(1000D);
             this.timer.AutoReset = true;
             this.timer.Elapsed += new System.Timers.ElapsedEventHandler(this.timer_Elapsed);
             this.timer.Start();
@@ -42,16 +43,19 @@ namespace SysMonitor
             queue.Enqueue(str);
         }
         private void sendQueue(){
-            string sql="INSERT INTO app1 (`date`,`cpuuse`,`memoryuse`,`cputemp`) VALUES ";
-            if(queue.Count>0)
-                sql+=queue.Dequeue();
-            while(queue.Count>0)
-                sql+=","+queue.Dequeue();
-            sendCommand(sql);
+            if (queue.Count > 0)
+            {
+                string sql = "INSERT INTO "+Wmi.pcname()+" (`date`,`cpuuse`,`memoryuse`,`cputemp`) VALUES ";
+
+                sql += queue.Dequeue();
+                while (queue.Count > 0)
+                    sql += "," + queue.Dequeue();
+                sendCommand(sql);
+            }
         }
         private void timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            sendCommand("");
+            
             if (connected)
                 sendQueue();
             else
@@ -66,18 +70,19 @@ namespace SysMonitor
 
                 command = sql_connection.CreateCommand();
               
-                Log.AddLog("connect() : connect succesfull");
+                Log.AddInfo("connect() : connect succesfull");
 
                 if (!db_loadTableList().Exists(x => x == Wmi.pcname()))
                 {
-                    command.CommandText = "CREATE TABLE " + Wmi.pcname() + "(data datetime, cpuuse int, memoryuse int, cputemp double)";
+                    command.CommandText = "CREATE TABLE " + Wmi.pcname() + "(date datetime, cpuuse int, memoryuse int, cputemp double)";
+                    Log.AddInfo("sql: " + command.CommandText);
                     command.ExecuteNonQuery();
                 }
                 connected = true;
             }
             catch (Exception e)
             {
-                Log.AddLog("connect() {global} : " + e.Message);
+                Log.AddError("connect() {global} : " + e.Message);
                 connected = false;
             }
         }
@@ -86,12 +91,13 @@ namespace SysMonitor
         {
           try
                 {
-                    command.CommandText = scommand;
+                Log.AddInfo("SendCommand() sql: " + scommand);
+                command.CommandText = scommand;
                     command.ExecuteNonQuery();
                 }
                 catch (Exception e)
                 {
-                    Log.AddLog("sendCommand() : " + e.Message);
+                    Log.AddError("sendCommand() : " + e.Message);
                     connected = false;
 
                 }
@@ -103,7 +109,9 @@ namespace SysMonitor
 
             try
             {
-                MySqlCommand cmdName = new MySqlCommand("SHOW TABLES FROM " + "onsevl_test", sql_connection);
+                //   MySqlCommand cmdName = new MySqlCommand("SHOW TABLES FROM " + "onsevl_test", sql_connection);
+
+                MySqlCommand cmdName = new MySqlCommand("SHOW TABLES FROM " + "test", sql_connection);
                 MySqlDataReader reader = cmdName.ExecuteReader();
 
                 while (reader.Read())
@@ -117,7 +125,7 @@ namespace SysMonitor
             }
             catch (System.Exception excep)
             {
-                Log.AddLog("db_loadTableList() : " + excep.Message);
+                Log.AddError("db_loadTableList() : " + excep.Message);
                 return tablelist;
             }
         }

@@ -13,7 +13,6 @@ C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.
 C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.pdb
 C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
 C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.pdb
-C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\MySql.Data.dll
 C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.csprojResolveAssemblyReference.cache
 C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.ProjectInstaller.resources
 C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.Sys_Monitor.resources

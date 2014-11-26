@@ -63,3 +63,32 @@
    logfile = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
    assemblypath = C:\Users\forodren\Documents\Visual Studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
 Восстанавливается исходное состояние журнала событий для источника Sys Monitor.
+Выполняется установка сборки 'c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Sys Monitor...
+Создается исходный EventLog Sys Monitor в журнале Application...
+Выполняется откат для сборки 'c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Восстанавливается исходное состояние журнала событий для источника Sys Monitor.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+Устанавливается служба Sys Monitor...
+Служба Sys Monitor успешно установлена.
+Создается исходный EventLog Sys Monitor в журнале Application...
+Выполняется фиксация сборки 'c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.InstallLog
+   assemblypath = c:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
