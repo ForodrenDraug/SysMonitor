@@ -30,6 +30,11 @@ namespace SysMonitor
             this.timer.Start();
             connect();
         }
+        ~BDWork()
+        {
+            this.timer.Close();
+            this.timer = null;
+        }
         
         public void Enqueue(string str){
             while(queue.Count>=limit)
@@ -37,7 +42,7 @@ namespace SysMonitor
             queue.Enqueue(str);
         }
         private void sendQueue(){
-            sting sql="INSERT INTO app1 (`date`,`cpuuse`,`memoryuse`,`cputemp`) VALUES ";
+            string sql="INSERT INTO app1 (`date`,`cpuuse`,`memoryuse`,`cputemp`) VALUES ";
             if(queue.Count>0)
                 sql+=queue.Dequeue();
             while(queue.Count>0)
@@ -46,6 +51,7 @@ namespace SysMonitor
         }
         private void timer_Elapsed(object sender, ElapsedEventArgs e)
         {
+            sendCommand("");
             if (connected)
                 sendQueue();
             else
@@ -67,6 +73,7 @@ namespace SysMonitor
                     command.CommandText = "CREATE TABLE " + Wmi.pcname() + "(data datetime, cpuuse int, memoryuse int, cputemp double)";
                     command.ExecuteNonQuery();
                 }
+                connected = true;
             }
             catch (Exception e)
             {
