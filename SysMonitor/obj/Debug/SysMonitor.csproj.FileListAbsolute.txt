@@ -8,3 +8,12 @@ c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\ob
 c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.pdb
 c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\bin\Debug\MySql.Data.dll
 c:\users\forodren\documents\visual studio 2013\Projects\SysMonitor\SysMonitor\obj\Debug\SysMonitor.Sys_Monitor.resources
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe.config
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.exe
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.pdb
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.exe
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\bin\Debug\SysMonitor.pdb
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.csprojResolveAssemblyReference.cache
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.ProjectInstaller.resources
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.Sys_Monitor.resources
+C:\Users\kirill9617\Documents\GitHub\SysMonitor\SysMonitor\obj\Debug\SysMonitor.csproj.GenerateResource.Cache
